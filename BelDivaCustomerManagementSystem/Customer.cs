@@ -5,7 +5,18 @@ namespace BelDivaCustomerManagementSystem
 {
     public class Customer
     {
-      
+
+        public Customer()  //default ctor
+        {
+
+        }
+
+        public Customer(int customerId) //overloaded constructor 
+        {
+            CustomerId = customerId; 
+
+        }
+
 
        public string FirstName { get; set;  } //no logic is needed
        
@@ -57,7 +68,7 @@ namespace BelDivaCustomerManagementSystem
         }
         //Retrieve one customer
 
-            public Customer Retrieve (int customerId)
+        public Customer Retrieve (int customerId) //method signature does not return type
             {
             //Code that retrieves the defined customer
 
@@ -67,7 +78,7 @@ namespace BelDivaCustomerManagementSystem
 
         //Save the current customer
 
-            public bool Save()
+        public bool Save()
         {
             //Code that saves the defined customer
 
