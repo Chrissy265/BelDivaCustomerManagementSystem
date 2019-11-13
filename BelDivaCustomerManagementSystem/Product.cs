@@ -23,37 +23,7 @@ namespace BelDivaCMS.BL
 
 
 
-
-
-
-
-
-
-
-
-        public List<Product> Retrieve()
-        {
-           
-
-            return new List<Product>();
-        }
-       
-
-        public Product Retrieve(int productId) 
-        {
-
-            return new Product();
-        }
-
-
-       
-
-        public bool Save()
-        {
-            
-
-            return true;
-        }
+        
         
         public bool Validate()
         {
@@ -67,4 +37,4 @@ namespace BelDivaCMS.BL
     }
 
 }
-}
+

@@ -14,7 +14,7 @@ public class Order
     }
 
     public DateTimeOffset? orderDate { get; set; }  //date can be set in different timezones
-    public int orderId { get; set; }
+    public int OrderId { get; set; }
 
 
 
@@ -22,31 +22,7 @@ public class Order
 
 
 
-    public List<Order> Retrieve()
-    {
-        
-
-        return new List<Order>();
-    }
-    
-
-    public Order Retrieve(int orderId) 
-    {
-       
-
-        return new Order();
-    }
-
-
- 
-
-    public bool Save()
-    {
-        
-
-        return true;
-    }
-   
+  
     public bool Validate()
     {
         var isValid = true;
